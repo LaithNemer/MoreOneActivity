@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:hint="Enter a massage"
+    android:inputType="textPassword"
+      android:ems="10"
+      android:id="@+id/EditMessage"
+      />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:onClick="OnClickSend"
+        android:id="@+id/ButtonMessage"
+
+        />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnSend2"
+      android:layout_marginTop="10dp"
+      android:text="Send2"
+      android:onClick="btnSend2"
+
+      />
+
+  <ImageView
+      android:id="@+id/ImageView2"
+      android:layout_width="200dp"
+      android:layout_gravity="center"
+      android:layout_height="200dp"
+      app:srcCompat="@drawable/nakbeh" />
+  <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_gravity="center"
+      android:text="النكبه الفلسطينيه"
+      android:id="@+id/alNakbeh"
+      android:textSize="15dp"
+      />
+
+
+      />
+
+
+  />
+</LinearLayout>
